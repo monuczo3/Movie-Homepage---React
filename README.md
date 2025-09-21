@@ -1,4 +1,6 @@
 <div align="center">
+  <img width="947" height="524" alt="image" src="https://github.com/user-attachments/assets/8776e2f2-ebe3-49de-9c0b-c9875740266b" />
+
   
   Modern Movie Discovery Platform
   
