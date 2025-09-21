@@ -1,12 +1,101 @@
-# React + Vite
+<div align="center">
+  <img src="public/hero.png" alt="Moodflix Banner" width="400" />
+  
+    Modern Movie Discovery Platform
+  
+  <p>A Netflix-inspired movie discovery platform built with React.js, and TailwindCSS</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <div>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React.js" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+    <img src="https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=Appwrite&logoColor=white" alt="Appwrite" />
+  </div>
+</div>
 
-Currently, two official plugins are available:
+- 💫 **Modern UI/UX**:
+  - Netflix-style hover effects
+  - Smooth transitions
+  - Responsive design
+  - Dynamic loading states
+ 
+  - ### For Developers
+- 🏗️ **Clean Architecture**: Well-organized project structure
+- 🔄 **Reusable Components**: Modular and maintainable code
+- 📱 **Responsive Design**: Mobile-first approach
+- 🚀 **Performance Optimized**: Fast loading and smooth interactions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: 
+  - React.js with Vite
+  - TailwindCSS for styling
+  - React Router for navigation
+- **Backend**: 
+  - TMDB API for movie data
+- **Development**:
+  - ESLint for code quality
+  - Prettier for code formatting
+  - Vite for fast development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+- TMDB API key
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/moodflix.git
+cd moodflix
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Environment Setup**
+
+Create a `.env.local` file in the root directory:
+```env
+VITE_TMDB_API_KEY=your_tmdb_api_key
+VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
+VITE_APPWRITE_COLLECTION_ID=your_appwrite_collection_id
+```
+
+4. **Start the development server**
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173` to view the application.
+
+## 📦 Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   ├── MovieCard/      # Movie card component
+│   ├── Search/         # Search component
+│   └── ...
+├── pages/              # Page components
+│   ├── Home/          
+│   └── MovieDetail/    
+├── styles/             # Global styles
+├── utils/              # Utility functions
+
+```
+
+## 🔧 Configuration
+
+
+### TMDB Setup
+
+1. Create an account on [TMDB](https://www.themoviedb.org/)
+2. Get your API key from the settings
+3. Add the API key to your environment variables
