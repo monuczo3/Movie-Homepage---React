@@ -1,7 +1,6 @@
 <div align="center">
-  <img src="public/hero.png" alt="Moodflix Banner" width="400" />
   
-    Modern Movie Discovery Platform
+  Modern Movie Discovery Platform
   
   <p>A Netflix-inspired movie discovery platform built with React.js, and TailwindCSS</p>
 
